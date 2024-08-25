@@ -49,7 +49,7 @@
             const year = now.getFullYear();
 
             document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
-            document.getElementById('date').textContent = `${day}/${month}/${year}`;
+            document.getElementById('date').textContent = `${year}/${month}/${date}`;
         }
 
         setInterval(updateTime, 1000);
